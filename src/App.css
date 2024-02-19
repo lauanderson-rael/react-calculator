@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+
+.cssContainer { 
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  
+  width: 300px;
+  border: 3px solid #000 ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cssBotoes {
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cssTela {
   display: flex;
+  padding-left: 20px;
+  padding-right: 20;
+  /* justify-content: center;
+  align-items: flex-start;  */
+
+  background-color: #444;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 280px
 }
 
-.App-link {
-  color: #61dafb;
+.cssTelaOper {
+  font-size: 25px;
+  color: #fff;
+  height: 20px
+}
+.cssTelaRes {
+  font-size: 50px;
+  color: #fff
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* css botão */
+.cssBtn  {
+  font-size: 30px;
+  height: 75px;
+  width: 75px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  text-align: center;
+  outline: none;
 }
