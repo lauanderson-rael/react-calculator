@@ -71,8 +71,9 @@ export default function App(){
 
   return(
     <>
+      // <h3>Calculadora básica</h3>
       <div className='cssContainer'>
-         <h3>Calculadora básica</h3>
+         
         {Tela(valorTela, resultado)}
         <div className='cssBotoes'>
         {Btn('AC', limparMemoria)}
